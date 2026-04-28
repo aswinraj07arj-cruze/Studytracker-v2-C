@@ -122,9 +122,9 @@ export default function App() {
         <div>
           <div style={styles.logoRow}>
             <span style={styles.logo}>⌨️</span>
-            <span style={styles.appTitle}>KTU C Programming Tracker</span>
+            <span style={styles.appTitle}> C Programming-Study Tracker</span>
           </div>
-          <div style={styles.subtitle}>GXEST204 • B.Tech S2 • KGU</div>
+          <div style={styles.subtitle}>GXEST204 • B.Tech S2 • KTU-syllabus </div>
         </div>
       </div>
 
@@ -238,6 +238,10 @@ export default function App() {
           <div style={{ ...styles.card, borderLeft: `4px solid ${mod.color}` }}>
             <div style={styles.noteText}>{mod.notes}</div>
           </div>
+           <div>
+             <span>instagram</span>
+             <a href="https://www.instagram.com/ashwiie.en?igsh=MXUxNGZxcWV3dXVjaA==">click here</a>
+           </div>
 
           <button
             style={{ ...styles.resetBtn, borderColor: mod.color, color: mod.color }}
