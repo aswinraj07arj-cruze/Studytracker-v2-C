@@ -263,8 +263,8 @@ const styles = {
     color: "#e0e0f0",
     fontFamily: "'Courier New', monospace",
     padding: "16px",
-    maxWidth: 480,
-    margin: "0 auto",
+    Width: "100",
+    margin: 0,
   },
   header: {
     display: "flex",
